@@ -1,0 +1,3 @@
+[submodule "ANIM3D/cgp"]
+	path = ANIM3D/cgp
+	url = git@github.com:drohmer/cgp.git
