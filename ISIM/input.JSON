@@ -1,0 +1,22 @@
+[
+    {
+        "saveAs": "gradient.png",
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "type": "gradient",
+        "parametre": {
+            "color": [
+                "#FF0000",
+                "#FF7F00",
+                "#FFFF00",
+                "#00FF00",
+                "#0000FF",
+                "#4B0082",
+                "#9400D3"
+            ],
+            "angle": 45
+        }
+    }
+]
