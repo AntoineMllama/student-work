@@ -1,0 +1,5 @@
+- ANIM3D : Animation 3D (3D Animation)
+- IREN : Introduction aux reseaux de neurones (Introduction to neural networks)
+- IRGPUA : Implémentation rapide GPGPU Avancée (Advanced GPGPU fast implementation)
+- ISIM : Introduction à la synthèse d'images (Introduction to image synthesis)
+- TIFO : Traitement d'Images fondamental (Fundamental image processing)
