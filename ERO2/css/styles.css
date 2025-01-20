@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #444;
+    margin: 0 0 15px 0;
+    font-size: 1.3em;
+}
+
+.simulation {
+    margin-bottom: 30px;
+    padding: 25px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.simulation:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.links {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    margin: 2px 0;
+    line-height: 1.6;
+}
+
+.links ul ul {
+    padding-left: 20px;
+    margin: 3px 0;
+}
+
+.links a {
+    color: #3498db;
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+.links a:hover {
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+}
+
+strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.metrics-section {
+    margin: 30px 0;
+    padding: 25px;
+    background-color: #f8f9fa;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.metric-group {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius:6px;
+    border: 1px solid #e0e0e0;
+}
+
+.metric-group p {
+    margin: 8px 0;
+    color: #333;
+    padding: 5px 10px;
+}
+
+
+.plot {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}

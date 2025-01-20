@@ -1,0 +1,251 @@
+{
+    "42sh": {
+      "RANDOM_STATE": 0,
+      "SERVERS_AMOUNT": 4,
+      "description": "Projet contenant 4 parties, chacune variant en difficulté de moyenne à compliquée, pour environ 400 étudiants dans le groupe concerné,\navec 4 étudiants par groupe, soit un total de 100 groupes. Un total de 4 serveurs sera utilisé.",
+      "avg_samples_per_group": 100,
+      "tasks": [
+        {
+          "name": "Step1",
+          "tag_prefix": "dementor_step1_42sh",
+          "user_group": "ING1",
+          "difficulty_level": "MEDIUM",
+          "start_timestamp": 0,
+          "end_timestamp": 345600,
+          "rate_limit_day": 2,
+          "tests_exec_time": 600
+        },
+        {
+          "name": "Step2",
+          "tag_prefix": "dementor_step2_42sh",
+          "user_group": "ING1",
+          "difficulty_level": "HARD",
+          "start_timestamp": 86400,
+          "end_timestamp": 345600,
+          "rate_limit_day": 2,
+          "tests_exec_time": 1200,
+          "dependencies": ["Step1"]
+        },
+        {
+          "name": "Step3",
+          "tag_prefix": "dementor_step3_42sh",
+          "user_group": "ING1",
+          "difficulty_level": "HARD",
+          "start_timestamp": 172800,
+          "end_timestamp": 345600,
+          "rate_limit_day": 2,
+          "tests_exec_time": 1200,
+          "dependencies": ["Step1"]
+        },
+        {
+          "name": "Step4",
+          "tag_prefix": "dementor_step4_42sh",
+          "user_group": "ING1",
+          "difficulty_level": "HARD",
+          "start_timestamp": 259200,
+          "end_timestamp": 345600,
+          "rate_limit_day": 2,
+          "tests_exec_time": 2400,
+          "dependencies": ["Step1", "Step2", "Step3"]
+        }
+      ],
+      "student_levels": {
+        "modifiers": {
+          "BEGINNER": {
+            "success_probs_modifier": 0.1,
+            "speed_modifier": 0.15,
+            "breakdown_probability": 0.9
+          },
+          "INTERMEDIATE": {
+            "success_probs_modifier": 0.25,
+            "speed_modifier": 0.25,
+            "breakdown_probability": 0.75
+          },
+          "STRONG": {
+            "success_probs_modifier": 0.5,
+            "speed_modifier": 0.45,
+            "breakdown_probability": 0.55
+          },
+          "GEEK": {
+            "success_probs_modifier": 0.65,
+            "speed_modifier": 0.65,
+            "breakdown_probability": 0.1
+          }
+        },
+        "proportions": {
+          "ING1": {
+            "BEGINNER": 0.35,
+            "INTERMEDIATE": 0.55,
+            "STRONG": 0.08,
+            "GEEK": 0.02
+          }
+        }
+      }
+    },
+    "42sh (more servers)": {
+      "RANDOM_STATE": 0,
+      "SERVERS_AMOUNT": 8,
+      "description": "Projet contenant 4 parties, chacune variant en difficulté de moyenne à compliquée, pour environ 400 étudiants dans le groupe concerné,\navec 4 étudiants par groupe, soit un total de 100 groupes. Un total de 8 serveurs sera utilisé.",
+      "avg_samples_per_group": 100,
+      "tasks": [
+        {
+          "name": "Step1",
+          "tag_prefix": "dementor_step1_42sh",
+          "user_group": "ING1",
+          "difficulty_level": "MEDIUM",
+          "start_timestamp": 0,
+          "end_timestamp": 345600,
+          "rate_limit_day": 2,
+          "tests_exec_time": 600
+        },
+        {
+          "name": "Step2",
+          "tag_prefix": "dementor_step2_42sh",
+          "user_group": "ING1",
+          "difficulty_level": "HARD",
+          "start_timestamp": 86400,
+          "end_timestamp": 345600,
+          "rate_limit_day": 2,
+          "tests_exec_time": 1200,
+          "dependencies": ["Step1"]
+        },
+        {
+          "name": "Step3",
+          "tag_prefix": "dementor_step3_42sh",
+          "user_group": "ING1",
+          "difficulty_level": "HARD",
+          "start_timestamp": 172800,
+          "end_timestamp": 345600,
+          "rate_limit_day": 2,
+          "tests_exec_time": 1200,
+          "dependencies": ["Step1"]
+        },
+        {
+          "name": "Step4",
+          "tag_prefix": "dementor_step4_42sh",
+          "user_group": "ING1",
+          "difficulty_level": "HARD",
+          "start_timestamp": 259200,
+          "end_timestamp": 345600,
+          "rate_limit_day": 2,
+          "tests_exec_time": 2400,
+          "dependencies": ["Step1", "Step2", "Step3"]
+        }
+      ],
+      "student_levels": {
+        "modifiers": {
+          "BEGINNER": {
+            "success_probs_modifier": 0.1,
+            "speed_modifier": 0.15,
+            "breakdown_probability": 0.9
+          },
+          "INTERMEDIATE": {
+            "success_probs_modifier": 0.25,
+            "speed_modifier": 0.25,
+            "breakdown_probability": 0.75
+          },
+          "STRONG": {
+            "success_probs_modifier": 0.5,
+            "speed_modifier": 0.45,
+            "breakdown_probability": 0.55
+          },
+          "GEEK": {
+            "success_probs_modifier": 0.65,
+            "speed_modifier": 0.65,
+            "breakdown_probability": 0.1
+          }
+        },
+        "proportions": {
+          "ING1": {
+            "BEGINNER": 0.35,
+            "INTERMEDIATE": 0.55,
+            "STRONG": 0.08,
+            "GEEK": 0.02
+          }
+        }
+      }
+    },
+    "42sh (more tags)": {
+      "RANDOM_STATE": 0,
+      "SERVERS_AMOUNT": 4,
+      "description": "Projet contenant 4 parties, chacune variant en difficulté de moyenne à compliquée, pour environ 400 étudiants dans le groupe concerné,\navec 4 étudiants par groupe, soit un total de 100 groupes. Un total de 4 serveurs sera utilisé.",
+      "avg_samples_per_group": 100,
+      "tasks": [
+        {
+          "name": "Step1",
+          "tag_prefix": "dementor_step1_42sh",
+          "user_group": "ING1",
+          "difficulty_level": "MEDIUM",
+          "start_timestamp": 0,
+          "end_timestamp": 345600,
+          "rate_limit_day": 4,
+          "tests_exec_time": 600
+        },
+        {
+          "name": "Step2",
+          "tag_prefix": "dementor_step2_42sh",
+          "user_group": "ING1",
+          "difficulty_level": "HARD",
+          "start_timestamp": 86400,
+          "end_timestamp": 345600,
+          "rate_limit_day": 4,
+          "tests_exec_time": 1200,
+          "dependencies": ["Step1"]
+        },
+        {
+          "name": "Step3",
+          "tag_prefix": "dementor_step3_42sh",
+          "user_group": "ING1",
+          "difficulty_level": "HARD",
+          "start_timestamp": 172800,
+          "end_timestamp": 345600,
+          "rate_limit_day": 4,
+          "tests_exec_time": 1200,
+          "dependencies": ["Step1"]
+        },
+        {
+          "name": "Step4",
+          "tag_prefix": "dementor_step4_42sh",
+          "user_group": "ING1",
+          "difficulty_level": "HARD",
+          "start_timestamp": 259200,
+          "end_timestamp": 345600,
+          "rate_limit_day": 4,
+          "tests_exec_time": 2400,
+          "dependencies": ["Step1", "Step2", "Step3"]
+        }
+      ],
+      "student_levels": {
+        "modifiers": {
+          "BEGINNER": {
+            "success_probs_modifier": 0.1,
+            "speed_modifier": 0.15,
+            "breakdown_probability": 0.9
+          },
+          "INTERMEDIATE": {
+            "success_probs_modifier": 0.25,
+            "speed_modifier": 0.25,
+            "breakdown_probability": 0.75
+          },
+          "STRONG": {
+            "success_probs_modifier": 0.5,
+            "speed_modifier": 0.45,
+            "breakdown_probability": 0.55
+          },
+          "GEEK": {
+            "success_probs_modifier": 0.65,
+            "speed_modifier": 0.65,
+            "breakdown_probability": 0.1
+          }
+        },
+        "proportions": {
+          "ING1": {
+            "BEGINNER": 0.35,
+            "INTERMEDIATE": 0.55,
+            "STRONG": 0.08,
+            "GEEK": 0.02
+          }
+        }
+      }
+    }
+  }

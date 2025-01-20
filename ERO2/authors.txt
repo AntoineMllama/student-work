@@ -1,0 +1,6 @@
+Alexandre Bardon <alexandre.bardon@epita.fr>
+Andrii Hrona <andrii.hrona@epita.fr>
+Antoine Menard <antoine.menard@epita.fr>
+Damien Tissot <damien.tissot@epita.fr>
+Etienne Reverchon <etienne.reverchon@epita.fr>
+Nicolae Istratii <nicolae.istratii@epita.fr>
